@@ -1,7 +1,7 @@
 # Attrition-Analysis
 Analyzing by Logistic regression model, Random Forest Model and Artificial Neural Networks
 
-## Tools used  -  Pandas, Numpy, Sci-learn kit, MatplotLib, Seaborn
+## Tools used  -  Pandas, Numpy, Sci-learn kit, MatplotLib, Seaborn, Tensorflow, Keras
 ## Data - 35 features in total, each contains 1470 data points
 
 ## Features 
