@@ -71,8 +71,79 @@ Analyzing by Logistic regression model, Random Forest Model and Artificial Neura
 * We can visualize the relationship for 'DistanceFromHome' column Attrition
 <img width="452" alt="image" src="https://github.com/Aniket2k15/Attrition-Analysis/assets/138878014/d4140f27-7e4e-4d0f-ae00-bcb64cb5c211">
 
-* We can visualize the relationship for 'YearsWithCurrManager' column Attrition
+* The relationship for 'YearsWithCurrManager' column Attrition
 <img width="410" alt="image" src="https://github.com/Aniket2k15/Attrition-Analysis/assets/138878014/76e8bab8-54ac-43ad-a88b-72191108be64">
+
+* The relationship for 'YearsWithCurrManager' column Attrition
+<img width="411" alt="image" src="https://github.com/Aniket2k15/Attrition-Analysis/assets/138878014/d3d40e86-9d0d-4341-bcd4-adec9e8b673c">
+
+# Creating Prediction Model
+## Doing Random Sampling 
+### First converting all the text and categorical columns to numbers 
+
+<img width="308" alt="image" src="https://github.com/Aniket2k15/Attrition-Analysis/assets/138878014/bb4a6c78-c298-46b2-ac2d-3b0bcc17ac93">
+
+## Scaling 
+* So that all the integers will be in the range of 0 to 1
+
+## Building a Logistic Regression Model
+
+<img width="313" alt="image" src="https://github.com/Aniket2k15/Attrition-Analysis/assets/138878014/6d3f18ab-73ec-41cc-b1fe-3d4e94dd74f0">
+
+#### Confusion marix
+
+<img width="263" alt="image" src="https://github.com/Aniket2k15/Attrition-Analysis/assets/138878014/be157ada-140a-4015-84e1-110977c308d8">
+
+#### Classification Report 
+
+<img width="329" alt="image" src="https://github.com/Aniket2k15/Attrition-Analysis/assets/138878014/f5a47e98-58cc-4792-834b-02d599544e5f">
+
+## Building the Random Forest model
+
+<img width="323" alt="image" src="https://github.com/Aniket2k15/Attrition-Analysis/assets/138878014/f6ba2b81-2eb7-44bd-9efe-8b617d6a2b18">
+
+#### Testing Performance
+
+<img width="263" alt="image" src="https://github.com/Aniket2k15/Attrition-Analysis/assets/138878014/0d9ca4dc-ded9-4ed0-a01c-b54cbdb10662">
+
+#### Classication Report 
+
+<img width="331" alt="image" src="https://github.com/Aniket2k15/Attrition-Analysis/assets/138878014/f51ad016-92a7-4b1c-a895-84c3227b7ad0">
+
+# Advanced Techinques
+
+## Building a Deep Learing Model
+
+<img width="489" alt="image" src="https://github.com/Aniket2k15/Attrition-Analysis/assets/138878014/a4f66a34-c229-4c34-b21f-82e3466b5eb8">
+
+## Loss and Accuracy progress during training
+
+<img width="289" alt="image" src="https://github.com/Aniket2k15/Attrition-Analysis/assets/138878014/0a52edac-1fff-4be0-94c9-8d026b0debdc">
+<img width="298" alt="image" src="https://github.com/Aniket2k15/Attrition-Analysis/assets/138878014/22e08c8b-5725-4bae-aecf-d6bcec971a6b">
+
+## Testing Set Performance
+
+<img width="260" alt="image" src="https://github.com/Aniket2k15/Attrition-Analysis/assets/138878014/481ca126-2466-4c73-9d00-451536a08bc1">
+
+## Classification Report
+
+<img width="323" alt="image" src="https://github.com/Aniket2k15/Attrition-Analysis/assets/138878014/f7e5ca33-cf37-48a8-ac96-516489836ec2">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
